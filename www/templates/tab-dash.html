@@ -1,0 +1,76 @@
+<ion-view view-title="Pantau">
+  <ion-content class="padding">
+      <div class="card" style="text-align:center;">
+          <div class="item item-divider">
+              Kapasitas Rumah Sakit (Bogor)
+          </div><br>
+          <canvas id="doughnut" class="chart chart-doughnut"
+              chart-data="data" chart-labels="labels" legend="true">
+          </canvas>
+              <a class="button button-icon icon ion-social-twitter"></a>
+              <a class="button button-icon icon ion-social-facebook"></a>
+              <a class="button button-icon icon ion-social-googleplus"></a>
+              <a class="button button-icon icon ion-social-whatsapp-outline"></a>
+      </div>
+      <div class="card" style="text-align:center;">
+          <div class="item item-divider">
+              Jumlah Sehat dan Sakit
+          </div>
+          <canvas id="bar" class="chart chart-bar" data="dataBar" labels="labelsBar" legend="true" series="seriesBar"></canvas>
+          <a class="button button-icon icon ion-social-twitter"></a>
+          <a class="button button-icon icon ion-social-facebook"></a>
+          <a class="button button-icon icon ion-social-googleplus"></a>
+          <a class="button button-icon icon ion-social-whatsapp-outline"></a>
+      </div>
+
+      <div class="card">
+          <div class="list">
+              <div class="item item-divider">
+                  Sakit Penyakit
+              </div>
+              <a class="item" href="#">
+                Influenza
+                <span class="item-note" style="color:red">
+                  17%
+                </span>
+              </a>
+              <a class="item" href="#">
+                Keracunan Makanan
+                <span class="item-note" style="color:green">
+                  5%
+                </span>
+              </a>
+              <a class="item" href="#">
+                Kaki Gajah
+                <span class="item-note" style="color:green">
+                  2%
+                </span>
+              </a>
+              <a class="item" href="#">
+                Demam Berdarah
+                <span class="item-note" style="color:green">
+                  1%
+                </span>
+              </a>
+              <a class="item item-icon-right" href="#">
+                <i class="icon ion-ios-more"></i>
+                Lainnya
+              </a>
+              <div style="text-align:center;">
+                  <a class="button button-icon icon ion-social-twitter"></a>
+                  <a class="button button-icon icon ion-social-facebook"></a>
+                  <a class="button button-icon icon ion-social-googleplus"></a>
+                  <a class="button button-icon icon ion-social-whatsapp-outline"></a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="list">
+              <a class="item item-icon-right" href="#">
+                <i class="icon ion-android-arrow-forward"></i>
+                Kota Lainnya
+              </a>
+          </div>
+      </div>
+  </ion-content>
+</ion-view>
